@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     $message = $data['message'];
-    $webhookUrl = 'https://hooks.slack.com/services/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';
+    $webhookUrl = 'https://hooks.slack.com/services/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';
 
     // Inicializa o cURL
     $ch = curl_init($webhookUrl);

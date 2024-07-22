@@ -13,7 +13,7 @@ class SlackController extends Controller
         ]);
 
         $message = $request->input('message');
-        $webhookUrl = 'https://hooks.slack.com/services/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';
+        $webhookUrl = 'https://hooks.slack.com/services/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';
 
         try {
             $response = Http::post($webhookUrl, [

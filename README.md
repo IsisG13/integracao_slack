@@ -13,10 +13,12 @@ Certifique-se de que você tenha as seguintes ferramentas:
   
 Para enviar uma notificação para o Slack, utilize o seguinte comando cURL:
 
-→ curl -X POST://localhost:8000/integracao/slack/notificacao -H "Content-Type: application/json" -d '{"message": "Hello Slack!"}'
+→ curl -X POST://SUA-ROTA/integracao/slack/notificacao -H "Content-Type: application/json" -d '{"message": "Hello Slack!"}'
 
 - Usando PHP Puro:
   
 Se preferir usar PHP puro, você pode acessar o seguinte endpoint:
 
-→ http://localhost:8000/SlackNotificacao.php
+→ http://SUA-ROTA/SlackNotificacao.php
+
+📢  Troque o nome SUA-ROTA pela rota que esta utilizando (local ou externa)!
