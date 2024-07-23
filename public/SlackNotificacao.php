@@ -12,7 +12,7 @@
     // }
 
     // $message = $data['message'];
-    // // $webhookUrl = 'https://hooks.slack.com/services/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';
+    // // $webhookUrl = 'SUA WEBHOOK DO SLACK';
 
     // // Inicializa o cURL
     // $ch = curl_init($webhookUrl);
